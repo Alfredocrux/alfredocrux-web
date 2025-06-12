@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Alfredo Crux – Fotografía</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Helvetica Neue', sans-serif;
+      background-color: #111;
+      color: #fff;
+    }
+    header {
+      position: relative;
+      height: 100vh;
+      background: url('images/portada.jpg') no-repeat center center/cover;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 2rem;
+    }
+    header::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.4);
+      z-index: 1;
+    }
+    header h1, header p {
+      position: relative;
+      z-index: 2;
+    }
+    header h1 {
+      font-size: 3rem;
+      margin: 0;
+      letter-spacing: 2px;
+      color: #fff;
+    }
+    header p {
+      font-size: 1.1rem;
+      color: #ddd;
+      margin-top: 0.5rem;
+      font-style: italic;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 15px;
+      padding: 2rem;
+    }
+    .gallery img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+      object-fit: cover;
+      transition: transform 0.3s ease;
+    }
+    .gallery img:hover {
+      transform: scale(1.02);
+    }
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      font-size: 0.9rem;
+      color: #888;
+    }
+    .social {
+      margin-top: 1rem;
+    }
+    .social a {
+      margin: 0 10px;
+      color: #fff;
+      text-decoration: none;
+      font-size: 1.2rem;
+    }
+    .social a:hover {
+      color: #00bfff;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Alfredo Crux</h1>
+    <p>📸 Natural photographs · 🌱 Portraits, landscapes · 🎞️ Cinematic style</p>
+  </header>
+  <section class="gallery">
+    <img src="images/foto1.jpg" alt="Foto 1" />
+    <img src="images/foto2.jpg" alt="Foto 2" />
+    <img src="images/foto3.jpg" alt="Foto 3" />
+    <img src="images/foto4.jpg" alt="Foto 4" />
+    <img src="images/foto5.jpg" alt="Foto 5" />
+  </section>
+  <footer>
+    <div class="social">
+      <a href="https://instagram.com/photographyalfredocrux" target="_blank">Instagram</a>
+      <a href="https://wa.me/4807659187" target="_blank">WhatsApp</a>
+    </div>
+    <p>&copy; 2025 Alfredo Crux. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
