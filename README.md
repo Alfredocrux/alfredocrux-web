@@ -1,23 +1,22 @@
+
 # Alfredo Crux – Fotografía Cinemática
 
-Bienvenido a mi portafolio visual.  
-Este sitio presenta una selección de fotografías naturales, retratos y paisajes cinematográficos.
+🎞️ Bienvenido a mi portafolio visual en línea.
 
-## 🖼️ Estilo
-📸 Natural photographs  
-🌱 Portraits, landscapes  
-🎞️ Cinematic style
+Este sitio presenta una selección de mis fotografías, enfocadas en la belleza íntima, natural y cinematográfica. Ideal para amantes de la luz suave, los detalles sutiles y la estética visual profunda.
 
-## 🌐 Sitio en línea
-Puedes visitar el sitio publicado en GitHub Pages:  
-👉 [https://alfredocrux.github.io/alfredocrux-web](https://alfredocrux.github.io/alfredocrux-web)
+## 🚀 Ver sitio web
+👉 [Explorar portafolio](https://alfredocrux.github.io/nombre-del-repositorio/)
 
-## 📁 Estructura del proyecto
-2. Abre `index.html` en tu navegador o edítalo en tu editor favorito.
+## 📂 Estructura
+- `index.html` – Página principal del portafolio
+- `foto1.jpg` a `foto5.jpg` – Galería principal
+- `portada.jpg` – Imagen destacada
+- `README.md` – Descripción del proyecto
 
-## 📬 Contacto
-📷 Instagram: [@photographyalfredocrux](https://instagram.com/photographyalfredocrux)  
-📱 WhatsApp: [Contáctame](https://wa.me/4807659187)
+## 📞 Contacto
+- 📸 Instagram: [@photographyalfredocrux](https://instagram.com/photographyalfredocrux)
+- 💬 WhatsApp: [Contáctame](https://wa.me/4807659187)
 
 ---
 
