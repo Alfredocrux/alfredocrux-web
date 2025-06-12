@@ -1,0 +1,105 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Photography Alfredo Crux</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Helvetica Neue', sans-serif;
+      background-color: #111;
+      color: #fff;
+    }
+    header {
+      background-color: #000;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 2rem;
+      border-bottom: 1px solid #444;
+    }
+    header .left {
+      font-size: 1.2rem;
+      font-weight: bold;
+      color: #0ff;
+    }
+    header .right a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 1rem;
+    }
+    .intro {
+      text-align: center;
+      padding: 3rem 1rem 2rem;
+      font-size: 1.2rem;
+      color: #ccc;
+      line-height: 1.8;
+    }
+    hr {
+      border: none;
+      height: 1px;
+      background-color: #444;
+      margin: 2rem auto;
+      width: 80%;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1rem;
+      padding: 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .gallery img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+      object-fit: cover;
+      transition: transform 0.3s ease;
+    }
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      background-color: #000;
+      color: #888;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="left">Photography Alfredo Crux</div>
+    <div class="right"><a href="#contacto">Contáctame</a></div>
+  </header>
+
+  <section class="intro">
+    <p>"La fotografía es el único lenguaje que puede ser entendido y comprendido en todo el mundo"</p>
+    <p>"Capturando momentos, creando recuerdos"</p>
+    <p>"La vida es una película, la muerte es una fotografía"</p>
+  </section>
+
+  <hr />
+
+  <section class="gallery">
+    <img src="foto1.jpg" alt="Foto 1" />
+    <img src="foto2.jpg" alt="Foto 2" />
+    <img src="foto3.jpg" alt="Foto 3" />
+    <img src="foto4.jpg" alt="Foto 4" />
+    <img src="foto5.jpg" alt="Foto 5" />
+  </section>
+
+  <footer id="contacto">
+    <p>📸 Instagram: <a href="https://instagram.com/photographyalfredocrux" target="_blank">@photographyalfredocrux</a></p>
+    <p>💬 WhatsApp: <a href="https://wa.me/4807659187" target="_blank">Contáctame</a></p>
+    <p>📸 Facebook: <a href="https://www.facebook.com/share/1SUFXg8PMD/" target="_blank">@fotografiaalfredocrux</a></p>
+    <p>&copy; 2025 Alfredo Crux. Todos los derechos reservados.</p>
+  </footer>
+
+</body>
+</html>
